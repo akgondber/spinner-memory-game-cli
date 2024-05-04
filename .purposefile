@@ -1,0 +1,16 @@
+.purposefile                 Configures purposefile
+.gitignore                   Configures git to ignore certain files
+.prettierrc                  Configures Prettier
+.prettierignore              Configures Prettier ignored files
+package.json                 Configures npm and related tools
+package-lock.json            Lock file for npm dependencies
+tsconfig.json                Configures TypeScript
+README.md                    Documentation for repo
+LICENSE                      License for package
+.git/**                      Internal git state & config
+node_modules/**/*            Dependencies installed by npm
+tmp/**/*                     Temporarily and test files
+.npmrc                       The npm config files
+cli.js                       Main cli file
+.npm-check-history.json      Unused and outdated dependencies update/delete history
+media/**/*                   Media files

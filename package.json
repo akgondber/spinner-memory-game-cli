@@ -1,0 +1,60 @@
+{
+  "name": "spinner-memory-game-cli",
+  "version": "1.0.0",
+  "homepage": "https://github.com/akgondber/spinner-memory-game-cli",
+  "repository": "akgondber/spinner-memory-game-cli",
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "spinner-memory-game-cli": "cli.js",
+    "spinner-game": "cli.js",
+    "spigame": "cli.js",
+    "spiga": "cli.js"
+  },
+  "description": "CLI game - Remember spinners appearences sequence and restore the correspondence of spinners to their appearance numbers",
+  "main": "cli.js",
+  "scripts": {
+    "test": "purposefile",
+    "go": "node cli.js",
+    "prettify": "prettier . --write"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cligame",
+    "cli",
+    "game",
+    "spinner",
+    "memory",
+    "productivity",
+    "sequence",
+    "fun",
+    "rest",
+    "activerest",
+    "interval",
+    "training",
+    "reaction",
+    "interactive",
+    "animate",
+    "reactive",
+    "figures",
+    "emojis",
+    "brain"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-spinners": "^2.9.2",
+    "cli-table3": "^0.6.3",
+    "clipanion": "^4.0.0-rc.3",
+    "fast-shuffle": "^6.1.0",
+    "figures": "^6.1.0",
+    "log-update": "^6.0.0",
+    "rambda": "^9.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "purposefile": "^1.2.0"
+  }
+}
